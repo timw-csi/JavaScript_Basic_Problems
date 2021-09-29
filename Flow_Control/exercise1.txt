@@ -1,0 +1,16 @@
+false || (true && false); // FALSE
+true || (1 + 2); // TRUE 
+(1 + 2) || true; // TRUExx  3
+true && (1 + 2); // TRUExx 3
+false && (1 + 2); // FALSE
+(1 + 2) && true; // TRUE
+(32 * 4) >= 129; // FALSE
+false !== !true; // FALSE
+true === 4; // FALSE
+false === (847 === '847'); // TRUE
+false === (847 == '847'); // FALSE
+(!true || (!(100 / 5) === 20) || ((328 / 4) === 82)) || false; 
+ FALSE ||          FALSE      ||     TRUE            || FALSE(last)
+       FALSE                  ||      true
+           TRUE || FALSE
+               TRUE                                              
