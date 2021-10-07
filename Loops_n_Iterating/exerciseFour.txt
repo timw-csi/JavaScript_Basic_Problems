@@ -1,0 +1,4 @@
+The code doesn't produce an error, because it successfuly prints to
+ the console incrementing values of i. I was not aware until now that
+each of the three parts in the conditional statement were optional 
+though. I thought it would make an infinte loop of 0 + i.

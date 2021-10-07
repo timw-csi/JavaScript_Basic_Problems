@@ -1,0 +1,1 @@
+The code creates an infinite loop because the while conditional uses an assignment operater with one = instead of a strict equality operator with three ===. This insures the counter will never be greater than 2, even with the increment of 1 on line 5, thus ensuring the break statement on line 8 is never invoked.
