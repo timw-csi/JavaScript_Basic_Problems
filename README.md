@@ -1,2 +1,2 @@
-# intro-to-JS-book
-exercises from each chapter
+# JavaScript Basic Problems
+exercises from each chapter in intro-to-JS-book
